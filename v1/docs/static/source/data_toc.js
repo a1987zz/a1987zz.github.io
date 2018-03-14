@@ -1,6 +1,6 @@
 toc = [
   {label:"Quick Reference",path:"AutoHotkey.htm"},
-  {label:"Usage and Syntax                        ",children:
+  {label:"Usage and SyntaxÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Hotkeys",path:"Hotkeys.htm"},
     {label:"Hotstrings & auto-replace",path:"Hotstrings.htm"},
@@ -27,7 +27,7 @@ toc = [
   {label:"Script Showcase",path:"scripts/index.htm"},
   {label:"Script Compatibility",path:"Compat.htm"},
   {label:"Command and Function Index",path:"commands/index.htm"},
-  {label:"Environment                                   ",children:
+  {label:"EnvironmentÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"ClipWait",path:"commands/ClipWait.htm"},
     {label:"EnvGet",path:"commands/EnvGet.htm"},
@@ -36,7 +36,7 @@ toc = [
     {label:"OnClipboardChange",path:"commands/OnClipboardChange.htm"},
     {label:"SysGet",path:"commands/SysGet.htm"},
   ]},
-  {label:"External Libraries                          ",children:
+  {label:"External LibrariesÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"DllCall",path:"commands/DllCall.htm"},
     {label:"NumGet",path:"commands/NumGet.htm"},
@@ -59,7 +59,7 @@ toc = [
       {label:"ObjAddRef / ObjRelease",path:"commands/ObjAddRef.htm"}
     ]}
   ]},
-  {label:"File, Directory and Disk           ",children:
+  {label:"File, Directory and DiskÂ Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Drive",path:"commands/Drive.htm"},
     {label:"DriveGet",path:"commands/DriveGet.htm"},
@@ -99,9 +99,9 @@ toc = [
     {label:"SetWorkingDir",path:"commands/SetWorkingDir.htm"},
     {label:"SplitPath",path:"commands/SplitPath.htm"}
   ]},
-  {label:"Flow of Control                        ",children:
+  {label:"Flow of ControlÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
-    {label:"#Include/#IncludeAgain",path:"commands/_Include.htm"},
+    {label:"#Include/#IncludeAgain",path:"commands/+Include.htm"},
     {label:"{ ... } (block)",path:"commands/Block.htm"},
     {label:"Break",path:"commands/Break.htm"},
     {label:"Catch",path:"commands/Catch.htm"},
@@ -150,7 +150,7 @@ toc = [
     {label:"Until",path:"commands/Until.htm"},
     {label:"While-loop",path:"commands/While.htm"}
   ]},
- {label:"Graphical User Interfaces        ",children:
+ {label:"Graphical User InterfacesÂ Â Â Â Â Â Â Â ",children:
   [
     {label:"FileSelectFile",path:"commands/FileSelectFile.htm"},
     {label:"FileSelectFolder",path:"commands/FileSelectFolder.htm"},
@@ -177,7 +177,7 @@ toc = [
     {label:"ToolTip",path:"commands/ToolTip.htm"},
     {label:"TrayTip",path:"commands/TrayTip.htm"},
   ]},
-  {label:"Maths                                       ",children:
+  {label:"MathsÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Abs",path:"commands/Math.htm#Abs"},
     {label:"Ceil",path:"commands/Math.htm#Ceil"},
@@ -200,30 +200,30 @@ toc = [
     {label:"ASin/ACos/ATan",path:"commands/Math.htm#ASin"},
     {label:"Transform",path:"commands/Transform.htm"}
   ]},
-  {label:"Mouse and Keyboard              ",children:
+  {label:"Mouse and KeyboardÂ Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Hotkeys and Hotstrings",children:
     [
-      {label:"#HotkeyInterval",path:"commands/_HotkeyInterval.htm"},
-      {label:"#HotkeyModifierTimeout",path:"commands/_HotkeyModifierTimeout.htm"},
-      {label:"#Hotstring",path:"commands/_Hotstring.htm"},
-      {label:"#If",path:"commands/_If.htm"},
-      {label:"#IfTimeOut",path:"commands/_IfTimeout.htm"},
-      {label:"#IfWinActive/Exist",path:"commands/_IfWinActive.htm"},
-      {label:"#InputLevel",path:"commands/_InputLevel.htm"},
-      {label:"#MaxHotkeysPerInterval",path:"commands/_MaxHotkeysPerInterval.htm"},
-      {label:"#MaxThreads",path:"commands/_MaxThreads.htm"},
-      {label:"#MaxThreadsBuffer",path:"commands/_MaxThreadsBuffer.htm"},
-      {label:"#MaxThreadsPerHotkey",path:"commands/_MaxThreadsPerHotkey.htm"},
-      {label:"#MenuMaskKey",path:"commands/_MenuMaskKey.htm"},
-      {label:"#UseHook",path:"commands/_UseHook.htm"},
+      {label:"#HotkeyInterval",path:"commands/+HotkeyInterval.htm"},
+      {label:"#HotkeyModifierTimeout",path:"commands/+HotkeyModifierTimeout.htm"},
+      {label:"#Hotstring",path:"commands/+Hotstring.htm"},
+      {label:"#If",path:"commands/+If.htm"},
+      {label:"#IfTimeOut",path:"commands/+IfTimeout.htm"},
+      {label:"#IfWinActive/Exist",path:"commands/+IfWinActive.htm"},
+      {label:"#InputLevel",path:"commands/+InputLevel.htm"},
+      {label:"#MaxHotkeysPerInterval",path:"commands/+MaxHotkeysPerInterval.htm"},
+      {label:"#MaxThreads",path:"commands/+MaxThreads.htm"},
+      {label:"#MaxThreadsBuffer",path:"commands/+MaxThreadsBuffer.htm"},
+      {label:"#MaxThreadsPerHotkey",path:"commands/+MaxThreadsPerHotkey.htm"},
+      {label:"#MenuMaskKey",path:"commands/+MenuMaskKey.htm"},
+      {label:"#UseHook",path:"commands/+UseHook.htm"},
       {label:"Hotkey",path:"commands/Hotkey.htm"},
       {label:"ListHotkeys",path:"commands/ListHotkeys.htm"},
       {label:"Suspend",path:"commands/Suspend.htm"}
     ]},
-    {label:"#InstallKeybdHook",path:"commands/_InstallKeybdHook.htm"},
-    {label:"#InstallMouseHook",path:"commands/_InstallMouseHook.htm"},
-    {label:"#KeyHistory",path:"commands/_KeyHistory.htm"},
+    {label:"#InstallKeybdHook",path:"commands/+InstallKeybdHook.htm"},
+    {label:"#InstallMouseHook",path:"commands/+InstallMouseHook.htm"},
+    {label:"#KeyHistory",path:"commands/+KeyHistory.htm"},
     {label:"BlockInput",path:"commands/BlockInput.htm"},
     {label:"Click",path:"commands/Click.htm"},
     {label:"ControlClick",path:"commands/ControlClick.htm"},
@@ -248,7 +248,7 @@ toc = [
     {label:"SetNumScrollCapsLockState",path:"commands/SetNumScrollCapsLockState.htm"},
     {label:"SetStoreCapslockMode",path:"commands/SetStoreCapslockMode.htm"}
   ]},
-  {label:"Misc.                                          ",children:
+  {label:"Misc.Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"AutoTrim",path:"commands/AutoTrim.htm"},
     {label:"Edit",path:"commands/Edit.htm"},
@@ -264,7 +264,7 @@ toc = [
     {label:"URLDownloadToFile",path:"commands/URLDownloadToFile.htm"},
     {label:"VarSetCapacity",path:"commands/VarSetCapacity.htm"}
   ]},
-  {label:"Object Types                           ",children:
+  {label:"Object TypesÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Object",path:"objects/Object.htm"},
     {label:"Enumerator Object",path:"objects/Enumerator.htm"},
@@ -274,14 +274,14 @@ toc = [
     {label:"Function Objects",path:"objects/Functor.htm"},
     {label:"RegExMatch Object",path:"commands/RegExMatch.htm#MatchObject"}
   ]},
-  {label:"Process                                      ",children:
+  {label:"ProcessÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Process",path:"commands/Process.htm"},
     {label:"Run/RunWait",path:"commands/Run.htm"},
     {label:"RunAs",path:"commands/RunAs.htm"},
     {label:"Shutdown",path:"commands/Shutdown.htm"}
   ]},
-  {label:"Registry                                   ",children:
+  {label:"RegistryÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Loop (registry)",path:"commands/LoopReg.htm"},
     {label:"RegDelete",path:"commands/RegDelete.htm"},
@@ -289,13 +289,13 @@ toc = [
     {label:"RegWrite",path:"commands/RegWrite.htm"},
     {label:"SetRegView",path:"commands/SetRegView.htm"}
   ]},
-  {label:"Screen and Monitor                 ",children:
+  {label:"Screen and MonitorÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"ImageSearch",path:"commands/ImageSearch.htm"},
     {label:"PixelGetColor",path:"commands/PixelGetColor.htm"},
     {label:"PixelSearch",path:"commands/PixelSearch.htm"}
   ]},
-  {label:"Sound                                       ",children:
+  {label:"SoundÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"SoundBeep",path:"commands/SoundBeep.htm"},
     {label:"SoundGet",path:"commands/SoundGet.htm"},
@@ -304,7 +304,7 @@ toc = [
     {label:"SoundSet",path:"commands/SoundSet.htm"},
     {label:"SoundSetWaveVolume",path:"commands/SoundSetWaveVolume.htm"}
   ]},
- {label:"String                                         ",children:
+ {label:"StringÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Asc",path:"commands/Asc.htm"},
     {label:"Chr",path:"commands/Chr.htm"},
@@ -337,7 +337,7 @@ toc = [
     {label:"SubStr",path:"commands/SubStr.htm"},
     {label:"Trim",path:"commands/Trim.htm"}
   ]},
-   {label:"Window                                       ",children:
+   {label:"WindowÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
     {label:"Controls",children:
     [
@@ -356,7 +356,7 @@ toc = [
       {label:"SetControlDelay",path:"commands/SetControlDelay.htm"},
       {label:"WinMenuSelectItem",path:"commands/WinMenuSelectItem.htm"}
     ]},
- {label:"Win Groups",children:
+ {label:"WinÂ Groups",children:
     [
       {label:"GroupActivate",path:"commands/GroupActivate.htm"},
       {label:"GroupAdd",path:"commands/GroupAdd.htm"},
@@ -364,7 +364,7 @@ toc = [
       {label:"GroupDeactivate",path:"commands/GroupDeactivate.htm"}
     ]},
     {label:"Window Titles",path:"misc/WinTitle.htm"},
-    {label:"#WinActivateForce",path:"commands/_WinActivateForce.htm"},
+    {label:"#WinActivateForce",path:"commands/+WinActivateForce.htm"},
     {label:"DetectHiddenText",path:"commands/DetectHiddenText.htm"},
     {label:"DetectHiddenWindows",path:"commands/DetectHiddenWindows.htm"},
     {label:"IfWinActive/IfWinNotActive",path:"commands/WinActive.htm"},
@@ -399,36 +399,36 @@ toc = [
     {label:"WinWaitActive, WinWaitNotActive",path:"commands/WinWaitActive.htm"},
     {label:"WinWaitClose",path:"commands/WinWaitClose.htm"}
   ]},
-  {label:"#Directives                                   ",children:
+  {label:"#DirectivesÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ",children:
   [
-    {label:"#AllowSameLineComments",path:"commands/_AllowSameLineComments.htm"},
-    {label:"#ClipboardTimeout",path:"commands/_ClipboardTimeout.htm"},
-    {label:"#CommentFlag",path:"commands/_CommentFlag.htm"},
-    {label:"#ErrorStdOut",path:"commands/_ErrorStdOut.htm"},
-    {label:"#EscapeChar",path:"commands/_EscapeChar.htm"},
-    {label:"#HotkeyInterval",path:"commands/_HotkeyInterval.htm"},
-    {label:"#HotkeyModifierTimeout",path:"commands/_HotkeyModifierTimeout.htm"},
-    {label:"#Hotstring",path:"commands/_Hotstring.htm"},
-    {label:"#If",path:"commands/_If.htm"},
-    {label:"#IfWinActive/Exist",path:"commands/_IfWinActive.htm"},
-    {label:"#IfTimeout",path:"commands/_IfTimeout.htm"},
-    {label:"#Include/#IncludeAgain",path:"commands/_Include.htm"},
-    {label:"#InputLevel",path:"commands/_InputLevel.htm"},
-    {label:"#InstallKeybdHook",path:"commands/_InstallKeybdHook.htm"},
-    {label:"#InstallMouseHook",path:"commands/_InstallMouseHook.htm"},
-    {label:"#KeyHistory",path:"commands/_KeyHistory.htm"},
-    {label:"#MaxHotkeysPerInterval",path:"commands/_MaxHotkeysPerInterval.htm"},
-    {label:"#MaxMem",path:"commands/_MaxMem.htm"},
-    {label:"#MaxThreads",path:"commands/_MaxThreads.htm"},
-    {label:"#MaxThreadsBuffer",path:"commands/_MaxThreadsBuffer.htm"},
-    {label:"#MaxThreadsPerHotkey",path:"commands/_MaxThreadsPerHotkey.htm"},
-    {label:"#MenuMaskKey",path:"commands/_MenuMaskKey.htm"},
-    {label:"#NoEnv",path:"commands/_NoEnv.htm"},
-    {label:"#NoTrayIcon",path:"commands/_NoTrayIcon.htm"},
-    {label:"#Persistent",path:"commands/_Persistent.htm"},
-    {label:"#SingleInstance",path:"commands/_SingleInstance.htm"},
-    {label:"#UseHook",path:"commands/_UseHook.htm"},
-    {label:"#Warn",path:"commands/_Warn.htm"},
-    {label:"#WinActivateForce",path:"commands/_WinActivateForce.htm"}
+    {label:"#AllowSameLineComments",path:"commands/+AllowSameLineComments.htm"},
+    {label:"#ClipboardTimeout",path:"commands/+ClipboardTimeout.htm"},
+    {label:"#CommentFlag",path:"commands/+CommentFlag.htm"},
+    {label:"#ErrorStdOut",path:"commands/+ErrorStdOut.htm"},
+    {label:"#EscapeChar",path:"commands/+EscapeChar.htm"},
+    {label:"#HotkeyInterval",path:"commands/+HotkeyInterval.htm"},
+    {label:"#HotkeyModifierTimeout",path:"commands/+HotkeyModifierTimeout.htm"},
+    {label:"#Hotstring",path:"commands/+Hotstring.htm"},
+    {label:"#If",path:"commands/+If.htm"},
+    {label:"#IfWinActive/Exist",path:"commands/+IfWinActive.htm"},
+    {label:"#IfTimeout",path:"commands/+IfTimeout.htm"},
+    {label:"#Include/#IncludeAgain",path:"commands/+Include.htm"},
+    {label:"#InputLevel",path:"commands/+InputLevel.htm"},
+    {label:"#InstallKeybdHook",path:"commands/+InstallKeybdHook.htm"},
+    {label:"#InstallMouseHook",path:"commands/+InstallMouseHook.htm"},
+    {label:"#KeyHistory",path:"commands/+KeyHistory.htm"},
+    {label:"#MaxHotkeysPerInterval",path:"commands/+MaxHotkeysPerInterval.htm"},
+    {label:"#MaxMem",path:"commands/+MaxMem.htm"},
+    {label:"#MaxThreads",path:"commands/+MaxThreads.htm"},
+    {label:"#MaxThreadsBuffer",path:"commands/+MaxThreadsBuffer.htm"},
+    {label:"#MaxThreadsPerHotkey",path:"commands/+MaxThreadsPerHotkey.htm"},
+    {label:"#MenuMaskKey",path:"commands/+MenuMaskKey.htm"},
+    {label:"#NoEnv",path:"commands/+NoEnv.htm"},
+    {label:"#NoTrayIcon",path:"commands/+NoTrayIcon.htm"},
+    {label:"#Persistent",path:"commands/+Persistent.htm"},
+    {label:"#SingleInstance",path:"commands/+SingleInstance.htm"},
+    {label:"#UseHook",path:"commands/+UseHook.htm"},
+    {label:"#Warn",path:"commands/+Warn.htm"},
+    {label:"#WinActivateForce",path:"commands/+WinActivateForce.htm"}
   ]}
 ];
