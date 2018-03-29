@@ -401,7 +401,7 @@ toc = [
   ]},
   {label:"#Directives                                   ",children:
   [
-    {label:"#AllowSameLineComments",path:"commands/_AllowSameLineComments.htm"},
+    {label:"#AllowSameLineComments",path:"commands/+AllowSameLineComments.htm"},
     {label:"#ClipboardTimeout",path:"commands/+ClipboardTimeout.htm"},
     {label:"#CommentFlag",path:"commands/+CommentFlag.htm"},
     {label:"#ErrorStdOut",path:"commands/+ErrorStdOut.htm"},
