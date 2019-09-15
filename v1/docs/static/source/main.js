@@ -64,18 +64,20 @@ function AddContent()
 
       $('.header #search-btn').on('click', function() {
       var query = $(".header #q").val();
-      var web = 'https://cse.google.com/cse?cx=010629462602499112316:ywoq_rufgic&q=input#gsc.tab=0&gsc.q='
+      var web = 'https://cse.google.com/cse?cx=012858330282421702224:9q4ezrxadti&q='
+      var dr = '#gsc.tab=0&gsc.q='
       var word = '&gsc.ref=more%3Adocumentation&gsc.sort='
-      var logo = web+query+word
+      var logo = web+query+dr+word
       window.open(logo)
     });
     
       $('#q').keydown(function(e){
       if (e.keyCode == 13) {
       var query = $(".header #q").val();
-      var web = 'https://cse.google.com/cse?cx=010629462602499112316:ywoq_rufgic&q=input#gsc.tab=0&gsc.q='
+      var web = 'https://cse.google.com/cse?cx=012858330282421702224:9q4ezrxadti&q='
+      var dr = '#gsc.tab=0&gsc.q='
       var word = '&gsc.ref=more%3Adocumentation&gsc.sort='
-      var logo = web+query+word
+      var logo = web+query+dr+word
       window.open(logo)
       }
      });
