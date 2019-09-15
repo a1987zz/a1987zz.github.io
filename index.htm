@@ -7,11 +7,6 @@
 <body>
 <h1>AutoHotkey Documentation</h1>
 <p><a href="v1/">AutoHotkey_H v1.1 and v2.0-alpha</a> - AutoHotkey_H Documentation and Downloads.</p>
-{% for post in site.docs %}
-  <p><a href="{{ post.url }}"><p>
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.date | date_to_string }}</p>
-  </a>
 {% endfor %}
 </body>
 </html>
