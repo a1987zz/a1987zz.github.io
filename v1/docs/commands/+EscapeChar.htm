@@ -96,11 +96,32 @@
 </table>
 <h3>Related</h3>
 <p>The following rarely used directives also exist; their usage is shown in these examples:</p>
-<pre><code class="language-autohotkey">1::
-msgbox d ; comment
-msgbox d ; comment
-return
-</code></pre>
+<pre><code class="language-autohotkey">#singleinstance force
+
+class Person {
+	__new(name, email, occupation){
+		this.name := name
+		this.email := email
+		this.occupation := occupation
+	}
+}
+
+class Teacher {
+	__new(subject){
+		this.subject := subject  
+	}
+}
+
+class Student {
+	__new(classes, grades){
+		base.__New(name, email)
+		this.classes := classes
+		this.grades := grades  
+	}
+}
+
+robert := new Student("Robert Mugabe", "robbiemugabe@zimbabwe.com", "dfd",  new Teacher("English"))
+msgBox % robert.grades</code></pre>
 <h3>Example</h3>
 <p>Changes the script's escape character (e.g. accent vs. backslash).</p>
 </body>
