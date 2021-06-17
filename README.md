@@ -1,1 +1,1 @@
-# autohotkey help
+# autohotkey Documentation
